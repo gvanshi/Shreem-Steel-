@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: 'Marck Script', cursive;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-left: 1.5rem;
+}
+
+.menu-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.menu-item a:hover {
+    color: #ffc107;
+}
+
+.heading {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.heading h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.heading p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.about {
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+}
+
+.about .heading, .about .subHeading {
+    margin-bottom: 1.5rem;
+}
+
+.about .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about .subHeading {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.explore {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.explore:hover {
+    background-color: #0056b3;
+}
+
+.services {
+    padding: 3rem 1rem;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.services .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services .box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.services .box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.services .box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.services .box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
