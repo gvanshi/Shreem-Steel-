@@ -7,6 +7,8 @@ closer.onclick = () => {
     loginForm.classList.remove('active');
 }
 
+
+
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
