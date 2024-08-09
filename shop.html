@@ -138,89 +138,74 @@
         const productsContainer = document.querySelector('.products');
         const boxTemplate = document.querySelector('.products .box');
         const data = {
-            "Flat": [
-            {
-                    imgSrc: 'images/B2.jpg',
-                    title: 'HR Coils/Sheets',
-                    description: 'Hot rolled steel is roll-pressed at high temperatures, making it easier to form.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B4.png',
-                    title: 'CR Coils/Sheets',
-                    description: 'Cold rolled steel is hot rolled steel further processed in a cold rolling mill.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B8.jpg',
-                    title: 'Galvanized Coils/Sheets',
-                    description: 'Steel with a protective zinc coating.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B6.jpg',
-                    title: 'Color Coated Coils',
-                    description: 'Steel with a color coating.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B1.jpg',
-                    title: 'HR Sheets & Plates',
-                    description: 'Hot rolled steel plates with increased surface polish.',
-                    rating: 4,
-                },
-                {
-                    imgSrc: 'images/B3.jpg',
-                    title: 'CR Sheets & Plates',
-                    description: 'Cold rolled sheets with improved strength and surface finish.',
-                    rating: 3,
-                },
-                {
-                    imgSrc: 'images/B7.jpg',
-                    title: 'High Tensile Sheets & Plates',
-                    description: 'Sheets and plates with high tensile strength.',
-                    rating: 5,
-                }
-            ],
-            "Finished": [
-                {
-                    imgSrc: 'images/H1.png',
-                    title: 'MS ERW Tubes/Pipes',
-                    description: 'Mild Steel Electric Resistance Welded tubes/pipes.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B9.jpg',
-                    title: 'CR ERW Tubes/Pipes',
-                    description: 'Cold Rolled Electric Resistance Welded tubes/pipes.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B5.jpg',
-                    title: 'Pre-Galvanized Tubes/Pipes',
-                    description: 'Tubes/pipes with a pre-applied zinc coating.',
-                    rating: 4,
-                },
-                {
-                    imgSrc: 'images/B13.png',
-                    title: 'Color Coated Sheets',
-                    description: 'Sheets with a color coating.',
-                    rating: 4,
-                },
-                {
-                    imgSrc: 'images/B10.jpg',
-                    title: 'Wire Rods',
-                    description: 'Long steel products rolled from billets.',
-                    rating: 5,
-                },
-                {
-                    imgSrc: 'images/B11.jpg',
-                    title: 'TMT Bars',
-                    description: 'Thermo-Mechanically Treated bars.',
-                    rating: 5,
-                }
-            ]
-        };
+    "HR/CR Coils": [
+        {
+            imgSrc: 'images/B2.jpg',
+            title: 'HR Coils/Sheets',
+            description: 'Hot rolled steel is roll-pressed at high temperatures, making it easier to form.',
+            rating: 5,
+        },
+        {
+            imgSrc: 'images/B4.png',
+            title: 'CR Coils/Sheets',
+            description: 'Cold rolled steel is hot rolled steel further processed in a cold rolling mill.',
+            rating: 5,
+        },
+    ],
+    "HR/CR Sheets": [
+        {
+            imgSrc: 'images/B1.jpg',
+            title: 'HR Sheets & Plates',
+            description: 'Hot rolled steel plates with increased surface polish.',
+            rating: 4,
+        },
+        {
+            imgSrc: 'images/B3.jpg',
+            title: 'CR Sheets & Plates',
+            description: 'Cold rolled sheets with improved strength and surface finish.',
+            rating: 3,
+        },
+        {
+            imgSrc: 'images/B7.jpg',
+            title: 'High Tensile Sheets & Plates',
+            description: 'Sheets and plates with high tensile strength.',
+            rating: 5,
+        },
+        {
+            imgSrc: 'images/B8.jpg',
+            title: 'Galvanized Coils/Sheets',
+            description: 'Steel with a protective zinc coating.',
+            rating: 5,
+        },
+        {
+            imgSrc: 'images/B6.jpg',
+            title: 'Color Coated Coils',
+            description: 'Steel with a color coating.',
+            rating: 5,
+        }
+    ],
+    "ERW Pipes": [
+        {
+            imgSrc: 'images/H1.png',
+            title: 'MS ERW Tubes/Pipes',
+            description: 'Mild Steel Electric Resistance Welded tubes/pipes.',
+            rating: 5,
+        },
+        {
+            imgSrc: 'images/B9.jpg',
+            title: 'CR ERW Tubes/Pipes',
+            description: 'Cold Rolled Electric Resistance Welded tubes/pipes.',
+            rating: 5,
+        },
+        {
+            imgSrc: 'images/B5.jpg',
+            title: 'Pre-Galvanized Tubes/Pipes',
+            description: 'Tubes/pipes with a pre-applied zinc coating.',
+            rating: 4,
+        }
+    ]
+};
+
 
         if (!data[category]) {
             category = "Flat"; // Default to Flat if category is not valid
